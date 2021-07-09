@@ -1,0 +1,92 @@
+body {
+  background-color: #AAA;
+}
+
+#root {
+  width: 97vw;
+  height: 97vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculator {
+  width: 300px;
+  height: 500px;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "display display display display"
+    "clear clear divide multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three equals"
+    "zero zero decimal equals";
+}
+
+button {
+  border: 1px solid black;
+  color: white;
+}
+
+button:hover {
+  color: black;
+  border: 1px solid white;
+}
+
+.number {
+  background-color: #047;
+}
+
+.number:hover {
+  background-color: #8CF;
+}
+
+.operator {
+  background-color: #740;
+}
+
+.operator:hover {
+  background-color: #FC8;
+}
+
+.clear {
+  background-color: #900;
+}
+
+.clear:hover {
+  background-color: #F00;
+}
+
+.equals {
+  background-color: #444;
+}
+
+.equals:hover {
+  background-color: #FFF;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.display h1 {
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 27px;
+}
+
+.display h2 {
+  color: orange;
+  margin-right: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
