@@ -1,7 +1,7 @@
 # FCC14-calculator
 FreeCodeCamp Assignment 14
 
-[Markdown Editor](https://www.alex-cameron.com/FCC14/)
+[Calculator](https://www.alex-cameron.com/FCC14/)
 
 [Front End Libraries](https://www.freecodecamp.org/certification/alexcamero/front-end-libraries) from [FreeCodeCamp](https://www.freecodecamp.org/)
 
